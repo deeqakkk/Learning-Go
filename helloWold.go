@@ -1,7 +1,11 @@
 package main
 import ("fmt")
 
-
+const (
+	A int=1
+	B string="Deepak Verma"
+	C bool= true
+)
 func testFun(){
 	var student1 string
 	student1 = "kanak";
@@ -22,4 +26,8 @@ func main() {
 	fmt.Println("-------Chapter 3--------")
 	var a,b,c,d ,e int =1,3,5,4,5
 	fmt.Println(a,b,c,d,e);
+
+	fmt.Println("------Chapter 4---------")
+	// A="hello"
+	fmt.Println(A,B,C);
 }
