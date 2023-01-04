@@ -30,4 +30,5 @@ func main() {
 	fmt.Println("------Chapter 4---------")
 	// A="hello"
 	fmt.Println(A,B,C);
+	fmt.Printf("DeepakVerm%%")
 }
